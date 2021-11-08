@@ -20,11 +20,15 @@ print(7 == 2)
 print()
 
 # String
-s = 'string'
+s = 'stRINg dong'
 t = 'manip'
 
-print(s+t)
+print(s, t)
 print(t*2)
+
+print(s.capitalize())
+print(s.lower())
+print(s.swapcase())
 print()
 
 # List
