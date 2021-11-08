@@ -11,6 +11,12 @@ elif age >= 100:
 else:
     print("Pulang nak.")
 
+if "wow" in "sowowo":
+    print("wow is in sowowo")
+
+if "wow" in ['a', 'b', 'c', 'wow']:
+    print("wow is in the array")
+
 # Shorthand If
 print("\n=========== Inside Shorthand If ===========")
 print("Halo pak") if name == "Ricky" else print("Siapa kamu")
@@ -61,3 +67,19 @@ for i in items:
 print("\n=========== Inside Range ===========")
 for i in range(5):
     print(i, end="")
+
+dic = {'a':10, 'b':20}
+
+for d in dic:
+    print(d)        # 'a' dan 'b'
+
+for d in dic:
+    print(dic[d])   # '10' dan '20'
+
+for d in dic.values():
+    print(d)        # '10' dan '20'
+
+for k, v in dic.items():
+    print(k, ':', v)        # 'a:10' dan 'b:20'
+
+
